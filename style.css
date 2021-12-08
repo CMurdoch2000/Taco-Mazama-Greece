@@ -22,6 +22,7 @@
 a.linkswq:link {
   font-size: 1.4em !important;
 }
+
 }
 
 @media not all and (min-width: 1140px) {
@@ -32,9 +33,11 @@ a.linkswq:link {
   .rewup{
     display: none;
   }
+  /*
   .hideim2{
     display: none !important;
   }
+*/
   #myCarousel{
     display: none !important;
   }
@@ -90,6 +93,21 @@ body.orpage {
     max-height: 100%;
     max-width: 100%;
 }
+
+#einfo{
+  display: none ;
+}
+
+#gtext{
+  cursor: pointer;
+  text-decoration: underline;
+}
+#etext{
+  cursor: pointer;
+}
+.abouttxt{
+  font-size: 1.5em !important;
+
 }
 .carousel,.item,.active{
    height:100%;
@@ -138,12 +156,12 @@ th     { background:#eee; }
 
 .aboutpad{
   padding-top: 20px;
-  font-size: 1.6em !important;
+  font-size: 1.8em !important;
 
 }
 
 .aboutpadtxt{
-  font-size: 1.1em !important;
+  font-size: 1.5em !important;
 }
 
 

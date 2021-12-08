@@ -46,3 +46,17 @@ function resizeev() {
     $('#img3m').height($(window).height() - $('#navi').height());
     $('#img4m').height($(window).height() - $('#navi').height());
   });
+
+  function myFunction() {
+    document.getElementById("einfo").style.display = "none";
+    document.getElementById("ginfo").style.display = "inline";
+    document.getElementById("etext").style.textDecoration  = "initial";
+    document.getElementById("gtext").style.textDecoration  = "underline";
+  };
+
+  function myFunction2() {
+    document.getElementById("ginfo").style.display = "none";
+    document.getElementById("einfo").style.display = "inline";
+    document.getElementById("etext").style.textDecoration  = "underline";
+    document.getElementById("gtext").style.textDecoration  = "initial";
+  };
